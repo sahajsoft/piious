@@ -1,0 +1,19 @@
+[project]
+name = "piius"
+version = "0.1.0"
+description = "A CLI devoted to PII management"
+authors = [
+    {name = "Sudarsan Balaji", email = "hello@artful.dev"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
